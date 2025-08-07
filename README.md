@@ -1,25 +1,58 @@
-# TATO - Tecnologia de Acesso por Toque e Outros Sentidos
+# 📱 TATO - Tecnologia de Acesso por Toque e Outros Sentidos
 
-<p align="left">
+<p align="center">
   <img src="https://github.com/user-attachments/assets/a87a7fab-7529-427b-ad1d-11ffb28947ce" alt="Logo do TATO" width="200"/>
 </p>
 
-### Sobre o Projeto
+## 📝 Sobre o Projeto
 
-O TATO é um aplicativo mobile focado em acessibilidade, criado para ajudar pessoas com deficiência visual e auditiva a interagirem com o ambiente de forma mais segura e independente. O nome "TATO" reflete a missão de usar o toque e outros sentidos para criar uma experiência de navegação inclusiva.
+O **TATO** é um aplicativo mobile de **acessibilidade** projetado para auxiliar pessoas com **deficiência visual** e **deficiência auditiva** a interagirem com o ambiente de forma **segura, prática e independente**.
 
-O aplicativo oferece duas versões principais, cada uma adaptada para uma necessidade específica.
+O nome **"TATO"** simboliza o uso do toque e outros sentidos como parte central da experiência, oferecendo **duas versões adaptadas** para necessidades específicas:
 
-### Versão para Cegos (Navegação por Áudio e Vibração)
-* **Guia de Uso Narrado:** No primeiro acesso, o aplicativo lê em voz alta um guia completo sobre como usar a navegação.
-* **Rotas e Geolocalização:** O usuário pode digitar um endereço para traçar uma rota no mapa, recebendo as direções por áudio.
+---
 
-### Versão para Surdos (Interface Visual Otimizada)
-* **Interface Clara e Direta:** Elementos visuais otimizados para uma navegação fácil e intuitiva.
-* **Comunicação Visual:** O foco está em informações visuais, como o mapa e indicadores na tela.
+## 👁️‍🗨️ Versão para Baixa Visão
+- **Guia Narrado no Primeiro Acesso** – Explica por voz todas as funcionalidades do app.
+- **Rotas e Geolocalização** – O usuário informa um endereço e recebe **direções por áudio** e vibração.
+- **Leitura por Voz** – Mensagens, botões e interações são narrados.
 
-### Tecnologias Utilizadas
-* **Dart (Linguagem de programação)** e **Flutter (Framework de UI - Interface do Usuário).**
-* **`flutter_map`**: Para a exibição de mapas.
-* **`flutter_tts`**: Para a funcionalidade de texto para voz.
-* **`geocoding`**: Para converter endereços em coordenadas.
+---
+
+## 🖐️ Versão para Surdos
+- **Interface Visual Clara** – Ícones e botões grandes, de fácil entendimento.
+- **Mapa Interativo** – Localização e rotas visíveis diretamente na tela.
+- **Indicadores Visuais** – Feedback rápido e intuitivo.
+
+---
+
+## ⚙️ Tecnologias
+O TATO foi desenvolvido com:
+- **Dart** + **Flutter**
+- **Pacotes Principais**:
+  - `flutter_map` – Exibição de mapas interativos.
+  - `flutter_tts` – Leitura de textos por voz.
+  - `speech_to_text` – Reconhecimento de voz.
+  - `geocoding` e `geolocator` – Localização e rotas.
+  - `shared_preferences` – Salvamento de configurações do usuário.
+  - `google_fonts` – Tipografia personalizada.
+
+---
+
+## 📥 Download
+Acesse a aba **[Releases](../../releases)** e baixe a versão mais recente do **APK** para instalar no seu dispositivo Android.
+
+---
+
+## 📷 Imagens do Aplicativo
+| Tela Inicial | Navegação para Cegos | Navegação para Surdos |
+|--------------|----------------------|-----------------------|
+| ![Tela Inicial](https://i.imgur.com/hTFKeQj.png) | ![Navegação para Baixa Visão](https://i.imgur.com/YZ2YIA0.png) | ![Navegação para Surdos](https://i.imgur.com/KAmJWv5.png) |
+
+---
+
+## 💡 Diferenciais
+✅ Foco total em **acessibilidade**  
+✅ Navegação adaptada para **dois públicos** diferentes  
+✅ Interface simples, funcional e rápida  
+✅ **Gratuito** e sem anúncios
