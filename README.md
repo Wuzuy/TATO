@@ -36,7 +36,7 @@ O TATO foi desenvolvido com:
   - `geocoding` e `geolocator` – Localização e rotas.
   - `shared_preferences` – Salvamento de configurações do usuário.
   - `google_fonts` – Tipografia personalizada.
-
+  - `google_generative_ai` - Integração do Gemini para melhoria na rotina empresarial, transcrição e comandos por voz.
 ---
 
 ## 📥 Download
